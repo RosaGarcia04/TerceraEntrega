@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+body{
+	background-color: #fff;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+/*margin: 0 sirve para eliminar los bordes del body*/
+	margin:0;
+	}
+#banner{
+	position: relative;
+	background-image: url('../assets/inicio.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	height: 50vh;
+}
+#banner_mario{
+	position: relative;
+	background-image: url('../assets/sobremario.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	height: 50vh;
+}
+#banner_blog{
+	position: relative;
+	background-image: url('../assets/blog.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	height: 50vh;
+}
+.color_nav{
+	background-color: #87A8FC;
+}
+#titulos_nav{
+	color: #5D78D7; 
+
+}
+#titulos_nav:hover{
+	color: #8BE6EC; 
+
+}
+#banner .texto{
+	z-index: 2;
+}
+.subtitulo_banner{
+	font-size: 1.2rem;
+}
+.titulos{
+	font-size: 3rem;
+	font-weight: 700;
+}
+.titulos_contenido{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #2669CE;
+}
+.titulo_sobre{
+	font-size: 2rem;
+	font-weight: 700;
+	color: #2669CE;
+}
+.oscuro{
+	color: #2669CE;
+}
+#pan_titulo{
+	max-width: 20%;
+}
+@media all and (max-width: 992px){
+	.titulos{
+		font-size: 2.3rem;
+	}
+	.titulos_contenido{
+		font-size: 2.3rem;
+	}
+	.titulos_panes{
+		font-size: 1.8rem;
+	}
+	.img_mario{
+	max-width: 100%;
+	}
+	#img1_seccion_destacada{
+		max-width: 20rem;
+	}
+}
+@media all and (max-width: 768px){
+	.titulos{
+		font-size: 2rem;
+	}
+	.titulos_contenido{
+		font-size: 2rem;
+	}
+	.titulos_panes{
+		font-size: 2rem;
+	}
+	.img_mario{
+	max-width: 100%;
+	}
+	#img1_seccion_destacada{
+		max-width: 25rem;
+	}	
+}
+@media all and (max-width: 576px){
+	.titulos{
+		font-size: 1.5rem;
+	}
+	.titulos_contenido{
+		font-size: 1.5rem;
+	}
+	.titulos_panes{
+		font-size: 1.5rem;
+	}
+	.img_mario{
+	max-width: 50%;
+	}
+	#img1_seccion_destacada{
+		max-width: 20rem;
+	}	
+}
+.imgs_destacados{
+	max-width: 100%;
+}
+.img_mario{
+	max-width: 100%;
+}
+.titulos_panes{
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+.precios_panes{
+	font-weight: 500;
+	font-size: 1rem;
+}
+.boton_comprar{
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+.boton_comprar:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+#seccion_destacada{
+	background-color: #DDE6FD;
+}
+#footer .titulos{
+	font-weight: 500;
+	font-size: 1.2rem;
+}
